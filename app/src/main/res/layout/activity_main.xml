@@ -2,19 +2,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/backgroundmainone"
     android:padding="16dp">
 
     <!-- Input Fields -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add New Item"
+        android:text="Add New Item:"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:layout_marginBottom="16dp"/>
 
     <EditText
         android:id="@+id/etItemName"
         android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:layout_height="wrap_content"
         android:hint="Item Name"
         android:inputType="text"/>
@@ -24,6 +28,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Category"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:inputType="text"
         android:layout_marginTop="8dp"/>
 
@@ -32,6 +38,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Quantity"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:inputType="number"
         android:layout_marginTop="8dp"/>
 
@@ -40,27 +48,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Comments (Optional)"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
         android:inputType="textMultiLine"
         android:layout_marginTop="8dp"/>
 
     <!-- Buttons -->
     <Button
         android:id="@+id/btnAddItem"
+        android:backgroundTint="@color/neonblue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="Add Item"
         android:layout_marginTop="16dp"/>
 
     <Button
         android:id="@+id/btnViewList"
         android:layout_width="match_parent"
+        android:backgroundTint="@color/darkblue"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="View Packing List"
         android:layout_marginTop="8dp"/>
 
     <Button
         android:id="@+id/btnExit"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
+        android:backgroundTint="@color/brightpink"
         android:layout_height="wrap_content"
         android:text="Exit"
         android:layout_marginTop="8dp"/>

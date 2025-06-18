@@ -2,11 +2,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/backgrounddetailed"
     android:padding="16dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         android:text="Packing List"
         android:textSize="20sp"
         android:layout_marginBottom="16dp"/>
@@ -15,10 +17,13 @@
         android:id="@+id/btnShowAll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/neonblue"
         android:text="Show All Items"/>
 
     <Button
         android:id="@+id/btnShowQuantity"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/darkblue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Show Items (Quantity ≥ 2)"
@@ -38,6 +43,8 @@
 
     <Button
         android:id="@+id/btnBack"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/brightpink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Back to Main"
