@@ -1,14 +1,14 @@
 # Tracking App - README
 
-![App Logo](assets/app_icon.png) <!-- Replace with your app's icon -->
+
 
 ## Description
 The Tracking App helps Android users monitor their daily activities, habits, and personal goals through an intuitive interface. This project solves the challenge of personal accountability by providing an easy-to-use mobile solution for tracking progress over time.
 
 ## Screenshots
-| Splash Screen | Main Dashboard | Tracking Screen | Progress Report |
-|--------------|---------------|----------------|----------------|
-| ![Splash](assets/splash.png) | ![Dashboard](assets/dashboard.png) | ![Tracking](assets/tracking.png) | ![Report](assets/report.png) |
+| Splash Screen | Main Screen | Detailed View Screen |
+|--------------|---------------|----------------|
+|<img width="145" alt="image" src="https://github.com/user-attachments/assets/c995e390-7eb0-41bb-940f-f5bc9820539a" /> |<img width="146" alt="image" src="https://github.com/user-attachments/assets/a941167d-e9d8-4add-aab0-8cbc85fc7710" />| <img width="158" alt="image" src="https://github.com/user-attachments/assets/e3271e0a-72dd-4d2b-83e6-5e5349e55f9e" />|
 
 ## Features
 - 📝 **Custom Trackers**: Create trackers for various metrics (time, count, yes/no)
