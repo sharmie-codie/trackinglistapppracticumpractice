@@ -78,6 +78,8 @@ The Tracking App was designed to:
 5. 🎨 **Custom Themes**: Personalize the app appearance
 
 ## References
-- [Android Developer Documentation](https://developer.android.com)
-- [Room Database Guide](https://developer.android.com/training/data-storage/room)
-- [MPAndroidChart Documentation](https://weeklycoding.com/mpandroidchart-documentation/)
+
+- w3schools. Kotlin Comments. (version1.0). Kotlin. <https://www.w3schools.com/KOTLIN/kotlin_comments.php>. [Accessed 20 May 2025]
+- w3schools. Kotlin when. (version1.0). Kotlin. <https://www.w3schools.com/kotlin/kotlin_when.php>. [Accessed 20 May 2025]
+- w3schools. Kotlin if...else. (version1.0). Kotlin. <https://www.w3schools.com/kotlin/kotlin_conditions.php>. [Accessed 20 May 2025]
+- GeeksForGeeks. ProgressBar in Kotlin. (version1.0). Kotlin. <https://www.geeksforgeeks.org/progressbar-in-kotlin/>. [Accessed 20 May 2025]
